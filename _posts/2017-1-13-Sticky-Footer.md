@@ -11,7 +11,7 @@ So far, this has worked for me:
 
 <pre style="width:350px;background: #1D1F20;color: #fff; padding:20px;font-size:16px;">
 html { 
-	height: 100%; 
+    height: 100%; 
 }
 
 body {
