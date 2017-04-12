@@ -16,3 +16,5 @@ You can find me on Twitter or Github (both @arctwain), Codepen(@twain), or email
 My portfolio site is currently at [tinaanastos.com](http://www.tinaanastos.com).
 
 Thanks for reading!
+
+{ % include signature.html % }
