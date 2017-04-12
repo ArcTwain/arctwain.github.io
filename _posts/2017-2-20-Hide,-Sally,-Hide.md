@@ -15,5 +15,5 @@ with
 The mouseover, which also works on mobile, will delete the x. You add as many x's as you like.  You can also use a different letter as long that letter doesn't appear in your email address. 
 
 <div style="text-align:center" markdown="1">
-![Hide](/images/hide.jpg"Hide!")
+![Hiding](/images/hide.jpg "Hiding")
 </div>
