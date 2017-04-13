@@ -10,7 +10,7 @@ I created this blog to share my personal insights on various topics, including m
 
 ### Contact me
 
-I welcome all relevant questions, comments, and suggestions as well as irrelevant ones (if they're clever).
+I welcome all questions, comments, and suggestions.
 
 You can find me on Twitter or Github (both @arctwain), Codepen(@twain), or email at [arctwain@gmail.com](mailto:arctwain@gmail.com).
 My portfolio site is currently at [tinaanastos.com](http://www.tinaanastos.com).
@@ -18,4 +18,4 @@ My portfolio site is currently at [tinaanastos.com](http://www.tinaanastos.com).
 Thanks for reading!
 
 
-{% include signatureWithScroll.html %}
+{% include signature.html %}
