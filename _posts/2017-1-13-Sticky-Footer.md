@@ -15,9 +15,9 @@ html {
 }
 
 body {
-    min-height:100%; 
-    position:relative; 
-    padding-bottom:[footer-height] 
+    min-height: 100%; 
+    position: relative; 
+    padding-bottom: [footer-height] 
 }
 
 .footer { 
@@ -25,7 +25,7 @@ body {
     left: 0; 
     right: 0; 
     bottom: 0; 
-    height:[footer-height] 
+    height: [footer-height] 
 }
 </pre>
 
