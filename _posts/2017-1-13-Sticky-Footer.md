@@ -9,7 +9,7 @@ I've searched through endless tutorials on how to code the footer so that it "st
 
 So far, this has worked for me:
 
-<pre style="width:350px;background: #1D1F20;color: #fff; padding:20px;font-size:16px;">
+<pre style="width:250px;background: #1D1F20;color: #fff; padding:20px;font-size:12px;">
 html { 
     height: 100%; 
 }
