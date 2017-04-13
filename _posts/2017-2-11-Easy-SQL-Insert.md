@@ -7,7 +7,7 @@ When I taught high school, I loved providing "tips of the day" and/or "questions
 
 Today's tip: Easy SQL insert for multiple rows
 
-<pre style="width:400px;background: #1D1F20;color: #fff; padding:20px;font-size:16px;">
+<pre style="width:300px;background: #1D1F20;color: #fff; padding:20px;font-size:12px;">
 INSERT INTO Genius (FirstName, LastName)
 SELECT ‘Ada’, ‘Lovelace’
 UNION ALL
