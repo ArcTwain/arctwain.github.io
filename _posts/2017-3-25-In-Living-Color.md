@@ -3,7 +3,7 @@ layout: post
 title: In Living Color
 ---
 
-Recently, I came across this [article](https://blog.kissmetrics.com/psychology-of-color-and-conversions/), which discusses the psychology of color to get your online visitors to do what you want them to do-- whether that is to buy a product, use a service, register for a newsletter or email, download material, or fill out a form. Although much of the ideas presented are intuitive, I learned about some things that surprised me.
+Recently, I came across this [article](https://blog.kissmetrics.com/psychology-of-color-and-conversions/), which discusses the psychology of color to get your online visitors to do what you want them to do-- whether that is to buy a product, use a service, register for a newsletter or email, download material, or fill out a form. Although much of the ideas presented are intuitive, I learned some things that surprised me.
 
 The positive properties of basic colors are as follows:
 
@@ -31,6 +31,7 @@ _Quiz Answers_
 <br>
 
 Bonus: According to a recent study, what is the ugliest color in the world?<br> 
-<span style = "background: rgb(74, 65, 42); color: white; padding: 15px;">Pantone 448-C</span> Now THAT is always wrong for a site!
+<p style = "background: rgb(74, 65, 42); color: white; padding: 20px; margin:20px;">Pantone 448-C</p><br>
+Now THAT is always wrong for a site!
 
 {% include 2017-3-25-quiz.html %}
