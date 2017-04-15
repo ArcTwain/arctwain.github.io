@@ -1,6 +1,6 @@
 ---
 layout: post
-title: In Living <span style="color:red">C</span><span style="color:orange">o</span><span style="color:green">l</span><span style="color:blue">o</span><span style="color:violet">r</span>
+title: In Living Color
 ---
 
 Recently, I came across this [article](https://blog.kissmetrics.com/psychology-of-color-and-conversions/), which discusses the psychology of color to get your online visitors to do what you want them to do-- whether that is to buy a product, use a service, register for a newsletter or email, download material, or fill out a form. Although much of the ideas presented are intuitive, I learned some things that surprised me.
@@ -27,7 +27,7 @@ _Quiz Answers_
 
 1. How many hexadecimal color codes are there? 16<span style="vertical-align:super; font-size:12px">6</span> = 16,777,216
 2. What is the number after F in hexadecimal? 10 (I heard that someone got this question on an interview.)
-3. How many colors can humans see? 7,000,000! 
+3. How many <span style="font-weight:bold"><span style="color:red">c</span><span style="color:orange">o</span><span style="color:green">l</span><span style="color:blue">o</span><span style="color:indigo">r</span><span style="color:violet">s</span></span> can humans see? 7,000,000!
 <br>
 
 Bonus: According to a recent study, what is the ugliest color in the world?<br> 
