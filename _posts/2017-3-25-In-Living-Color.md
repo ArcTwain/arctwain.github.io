@@ -1,6 +1,6 @@
 ---
 layout: post
-title: In Living Color
+title: In Living <span style="color:red">C</span><span style="color:orange">o</span><span style="color:green">l</span><span style="color:blue">o</span><span style="color:violet">r</span>
 ---
 
 Recently, I came across this [article](https://blog.kissmetrics.com/psychology-of-color-and-conversions/), which discusses the psychology of color to get your online visitors to do what you want them to do-- whether that is to buy a product, use a service, register for a newsletter or email, download material, or fill out a form. Although much of the ideas presented are intuitive, I learned some things that surprised me.
