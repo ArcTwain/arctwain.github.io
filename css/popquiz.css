@@ -46,9 +46,12 @@ body {
 	font-size: 16px;
 }
 
+.answers div:hover {
+	cursor: pointer;
+}
+
 @media only screen and (min-width: 1224px) {
 	.answers div:hover {
-		cursor: pointer;
 		color: #4099FF;
 	}
 }	
