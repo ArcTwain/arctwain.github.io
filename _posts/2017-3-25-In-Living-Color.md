@@ -25,11 +25,12 @@ In the end, it's all about thoroughly testing the appropriateness of a palette t
 <hr>
 _Quiz Answers_
 
-1. How many hexadecimal color codes are there? 16<sup>6</sup> = 16,777,216
+1. How many hexadecimal color codes are there? 16<span style="vertical-align:super;">6</span> = 16,777,216
 2. What is the number after F in hexadecimal? 10 (I heard that someone got this question on an interview.)
 3. How many colors can humans see? 7,000,000! 
 <br>
 
-Bonus: According to a recent study, what is the ugliest color in the world? <span style = "background: rgb(74, 65, 42); color: white; padding: 15px;" >Pantone 448-C</span>. Now THAT is always wrong for a site!
+Bonus: According to a recent study, what is the ugliest color in the world?<br> 
+<span style = "background: rgb(74, 65, 42); color: white; padding: 15px;">Pantone 448-C</span> Now THAT is always wrong for a site!
 
 {% include 2017-3-25-quiz.html %}
