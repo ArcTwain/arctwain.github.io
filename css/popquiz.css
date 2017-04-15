@@ -102,5 +102,9 @@ button {
 }
 
 button:hover {
-	color: #ff0000;
+	color: #4099FF;
 }
+
+button:focus {
+	outline:0;
+}.
