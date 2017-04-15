@@ -99,7 +99,3 @@ button {
 	right: 20px;
 	top: 50px;
 }
-
-button:focus {
-	outline:0;
-}
