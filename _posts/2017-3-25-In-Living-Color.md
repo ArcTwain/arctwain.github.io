@@ -31,7 +31,7 @@ _Quiz Answers_
 <br>
 
 Bonus: According to a recent study, what is the ugliest color in the world?<br> 
-<p style = "background:rgb(74, 65, 42); color:white; padding: 20px; margin:20px auto; width: 200px; text-align:center;">Pantone 448-C</p><br>
+<p style = "border: 1px solid #000; padding: 20px; margin:20px auto; width: 200px; text-align:center;" onMouseOver="this.style.cursor='pointer'" onclick="this.innerHTML = 'Pantone 448-C'; this.style.background = 'rgb(74, 65, 42)';this.style.color = 'rgb(255,255,255)'">Click here for answer</p>
 Now THAT is always wrong for a site!<br>
 
 {% include 2017-3-25-quiz.html %}
