@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i");
+.typed-cursor {
+	display: none;
+}
+
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	-webkit-transition: opacity 1s;
+	transition: opacity 1s;
+}
+
+body {
+	font-family: Roboto, Arial, helvetica, sans-serif;
+}
+
+.quote-container {
+	font-size: 1.125em;
+	background-color: #2196f3;
+	color: rgba(255, 255, 255, 0.87);
+	position: relative;
+	width: 18.75em;
+	margin: 1.25em auto;
+	padding: 1em;
+	box-shadow: .3em .3em 0 0 #1565c0;
+	border-radius: .2em;
+}
+
+.quote-container .quote-mark {
+	font-size: .9em;
+	vertical-align: top;
+}
+
+.quote-container .quote-attr {
+	opacity: 0;
+	text-align: right;
+	font-size: 1em;
+	margin-top: 0.5em;
+	font-style: italic;
+}
