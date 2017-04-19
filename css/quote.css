@@ -13,29 +13,30 @@
 
 body {
 	font-family: Roboto, Arial, helvetica, sans-serif;
+	background-color: #bbdefb;
 }
 
 .quote-container {
-	font-size: 1.125em;
+	font-size: 16px;
 	background-color: #2196f3;
 	color: rgba(255, 255, 255, 0.87);
 	position: relative;
-	width: 18.75em;
-	margin: 1.25em auto;
-	padding: 1em;
-	box-shadow: .3em .3em 0 0 #1565c0;
-	border-radius: .2em;
+	width: 200px;
+	margin: 20px auto;
+	padding: 16px;
+	box-shadow: 5px 5px 0 0 #1565c0;
+	border-radius: 3px;
 }
 
 .quote-container .quote-mark {
-	font-size: .9em;
+	font-size: 12px;
 	vertical-align: top;
 }
 
 .quote-container .quote-attr {
 	opacity: 0;
 	text-align: right;
-	font-size: 1em;
-	margin-top: 0.5em;
+	font-size: 12px;
+	margin-top: 8px;
 	font-style: italic;
 }
