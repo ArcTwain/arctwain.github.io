@@ -7,10 +7,8 @@
 }
 
 .wrap {
-  width: 100vw;
-  height: 250vw;
-  max-height: 100vh;
-  max-width: 250vh;
+  width: 20em;
+  height: 10em;
   margin: 0 auto;
   position: absolute;
   top: 0;
@@ -27,28 +25,28 @@
 }
 
 .shrug {
-  stroke: gray;
+  stroke: #888;
   stroke-width: 2;
   fill: none;
   opacity: 0;
   -webkit-animation-iteration-count: 1;
-          animation-iteration-count: 1;
+  animation-iteration-count: 1;
   -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
   -webkit-animation-duration: 0.25s;
-          animation-duration: 0.25s;
+  animation-duration: 0.25s;
   -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 .smile {
-  stroke: red;
+  stroke: #ee9c9c;
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
 }
 
 .eye {
-  stroke: blue;
+  stroke: #9cc6ee;
 }
 
 @-webkit-keyframes fadein {
@@ -59,7 +57,6 @@
     opacity: 1;
   }
 }
-
 @keyframes fadein {
   from {
     opacity: 0;
@@ -71,121 +68,121 @@
 @-webkit-keyframes shoulder-l {
   from {
     -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+    transform: rotate(-90deg);
   }
   to {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 @keyframes shoulder-l {
   from {
     -webkit-transform: rotate(-90deg);
-            transform: rotate(-90deg);
+    transform: rotate(-90deg);
   }
   to {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 @-webkit-keyframes shoulder-r {
   from {
     -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
+    transform: rotate(90deg);
   }
   to {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 @keyframes shoulder-r {
   from {
     -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
+    transform: rotate(90deg);
   }
   to {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 @-webkit-keyframes forearm-l {
   from {
     -webkit-transform: rotate(-180deg);
-            transform: rotate(-180deg);
+    transform: rotate(-180deg);
   }
   to {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 @keyframes forearm-l {
   from {
     -webkit-transform: rotate(-180deg);
-            transform: rotate(-180deg);
+    transform: rotate(-180deg);
   }
   to {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 @-webkit-keyframes forearm-r {
   from {
     -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
+    transform: rotate(180deg);
   }
   to {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 @keyframes forearm-r {
   from {
     -webkit-transform: rotate(180deg);
-            transform: rotate(180deg);
+    transform: rotate(180deg);
   }
   to {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 @-webkit-keyframes hand-l {
   from {
     -webkit-transform: rotate(260deg);
-            transform: rotate(260deg);
+    transform: rotate(260deg);
   }
   to {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 @keyframes hand-l {
   from {
     -webkit-transform: rotate(260deg);
-            transform: rotate(260deg);
+    transform: rotate(260deg);
   }
   to {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 @-webkit-keyframes hand-r {
   from {
     -webkit-transform: rotate(-260deg);
-            transform: rotate(-260deg);
+    transform: rotate(-260deg);
   }
   to {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 @keyframes hand-r {
   from {
     -webkit-transform: rotate(-260deg);
-            transform: rotate(-260deg);
+    transform: rotate(-260deg);
   }
   to {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
 }
 @-webkit-keyframes smile {
@@ -206,69 +203,69 @@
 }
 .head {
   -webkit-animation-name: fadein;
-          animation-name: fadein;
+  animation-name: fadein;
 }
 
 .shoulder-l {
   -webkit-transform-origin: center right;
-          transform-origin: center right;
+  transform-origin: center right;
   -webkit-animation-name: shoulder-l, fadein;
-          animation-name: shoulder-l, fadein;
+  animation-name: shoulder-l, fadein;
   -webkit-animation-delay: 0.125s;
-          animation-delay: 0.125s;
+  animation-delay: 0.125s;
 }
 
 .shoulder-r {
   -webkit-transform-origin: center left;
-          transform-origin: center left;
+  transform-origin: center left;
   -webkit-animation-name: shoulder-r, fadein;
-          animation-name: shoulder-r, fadein;
+  animation-name: shoulder-r, fadein;
   -webkit-animation-delay: 0.125s;
-          animation-delay: 0.125s;
+  animation-delay: 0.125s;
 }
 
 .forearm-l {
   -webkit-transform-origin: bottom center;
-          transform-origin: bottom center;
+  transform-origin: bottom center;
   -webkit-animation-name: forearm-l, fadein;
-          animation-name: forearm-l, fadein;
+  animation-name: forearm-l, fadein;
   -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .forearm-r {
   -webkit-transform-origin: bottom center;
-          transform-origin: bottom center;
+  transform-origin: bottom center;
   -webkit-animation-name: forearm-r, fadein;
-          animation-name: forearm-r, fadein;
+  animation-name: forearm-r, fadein;
   -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .hand-l {
   -webkit-transform-origin: center right;
-          transform-origin: center right;
+  transform-origin: center right;
   -webkit-animation-name: hand-l, fadein;
-          animation-name: hand-l, fadein;
+  animation-name: hand-l, fadein;
   -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
 
 .hand-r {
   -webkit-transform-origin: center left;
-          transform-origin: center left;
+  transform-origin: center left;
   -webkit-animation-name: hand-r, fadein;
-          animation-name: hand-r, fadein;
+  animation-name: hand-r, fadein;
   -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
 
 .smile {
   opacity: 1;
   -webkit-animation-name: smile;
-          animation-name: smile;
+  animation-name: smile;
   -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-delay: 0.5s;
   -webkit-animation-duration: 4.5s;
-          animation-duration: 4.5s;
+  animation-duration: 4.5s;
 }
