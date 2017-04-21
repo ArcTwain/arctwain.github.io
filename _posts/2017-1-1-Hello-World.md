@@ -9,8 +9,7 @@ Although in the past I've created quite a few personal websites and blogs, they 
 
 You'll see me reference information about Macs and Mac products more often than I do PCs. I find their available software better, hardware more reliable, and OS more customizable. If you disagree, I'd love to hear your point of view! We've come a long way since the first PC went on the market, and I can't wait to see what the future will bring.
 
-<div style="text-align:center" markdown="1">
-![Vintage Mac](/images/vintage-mac.png "Vintage Mac")
+<div style="margin:auto">
+  <img src="/images/vintage-mac.png" alt="Vintage Mac"/>
+  <p style="text-align:center">Who remembers this?</p>
 </div>
-
-<p align="center"> Who remembers this?</p>
