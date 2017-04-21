@@ -3,7 +3,10 @@ layout: post
 title: Just for laughs
 ---
 
-No tricks today, but if you need some ideas, take a look [here](https://signaltower.co/april-fools-pranks-for-developers/). Instead, I thought I'd share some of my favorite short jokes, which are guaranteed to make your fellow geeks smile and cynics groan. It's been said that humor is just another defense against the universe. Arm yourself, and enjoy!
+No tricks today, but if you need some ideas, take a look [here](https://signaltower.co/april-fools-pranks-for-developers/). Instead, I thought I'd share some of my favorite short jokes, which are guaranteed to make your fellow geeks smile and cynics groan. It's been said that humor is just another defense against the universe. Arm yourselves, and enjoy!
+
+
+{% include shrug.html %}
 
 
 A Roman walks into a bar, holds up two fingers, and says, “Five beers, please.”
@@ -63,6 +66,5 @@ A: Y’all better Git!<br>
 Q: Why was the JavaScript reality show cancelled after only one episode?<br>
 A: People thought it seemed scripted.<br>
 
-* * *
 
-{% include shrug.html %}
+
