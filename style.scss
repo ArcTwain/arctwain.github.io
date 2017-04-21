@@ -201,6 +201,9 @@ img {
   font-size: 35px;
   letter-spacing: 1px;
   text-transform: lowercase;
+  @include mobile {
+    font-size: 26px;
+  }
 }
 
 .site-description {
