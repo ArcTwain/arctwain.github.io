@@ -1,23 +1,15 @@
-.main {
-  position: absolute;
-  top: 0;
-  left: 0;
+.main, #shruggie {
+  position: relative;
   height: 100%;
   width: 100%;
 }
 
 .wrap {
+  position: relative;
   width: 20em;
   height: 10em;
   margin: 0 auto;
-  position: relative;
   overflow: hidden;
-}
-
-#shruggie {
-  width: 100%;
-  height: 100%;
-  position: relative;
 }
 
 .shrug {
