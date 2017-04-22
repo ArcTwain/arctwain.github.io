@@ -10,6 +10,5 @@ Of course, for people in development, the window (pun intended) is wide open now
 
 Enjoy the freedom.
 
-<div style="text-align:center" markdown="1">
-![Goodbyie](/images/goodbyie.png "Goodbyie")
-</div>
+<p style="text-align:center"><img src="/images/goodbyie.png" alt="Goodbyie"/></p>
+
