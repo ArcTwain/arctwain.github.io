@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Learn All the Things
 ---
 
