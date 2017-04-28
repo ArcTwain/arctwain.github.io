@@ -1,53 +1,68 @@
 #signature {
-    width: 5em;
-    display: block;
-    overflow: visible;
-    opacity: 0;
+  width: 7em;
+  display: block;
+  overflow: visible;
+  opacity: 0;
 }
 
 #signature.animate {
-    opacity: 1;
+  opacity: 1;
 }
 
 path {
-    fill: none;
-    stroke: #555;
-  stroke-width: 4;
+  fill: none;
+  stroke: #555;
+  stroke-width: 1.5;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-miterlimit: 10;
   stroke-dashoffset: 0;
 }
-.animate .tBottom {
+
+.animate #tBottom {
   stroke-dasharray: 130;
   -webkit-animation: tBottom 2s 1 ease-in-out;
           animation: tBottom 2s 1 ease-in-out;
 }
-.animate .tLoop {
+
+.animate #tLoop {
   stroke-dasharray: 130;
   -webkit-animation: tLoop 2s 1 ease-in-out;
           animation: tLoop 2s 1 ease-in-out;
 }
-.animate .letterI {
+
+.animate #iLetter {
   stroke-dasharray: 90;
-  -webkit-animation: letterI 2s 1 ease-in;
-          animation: letterI 2s 1 ease-in;
+  -webkit-animation: iLetter 2s 1 ease-in;
+          animation: iLetter 2s 1 ease-in;
 }
-.animate .letterN {
+
+.animate #nLine {
+  stroke-dasharray: 90;
+  -webkit-animation: nLine 2s 1 ease-in;
+          animation: nLine 2s 1 ease-in;
+}
+
+.animate #nLetter {
   stroke-dasharray: 150;
-  -webkit-animation: letterN 2s 1 ease-in;
-          animation: letterN 2s 1 ease-in;
+  -webkit-animation: nLetter 2s 1 ease-in;
+          animation: nLetter 2s 1 ease-in;
 }
-.animate .letterA {
+
+.animate #aLetter {
   stroke-dasharray: 170;
-  -webkit-animation: letterA 2s 1 ease-in;
-          animation: letterA 2s 1 ease-in;
+  -webkit-animation: aLetter 2s 1 ease-in;
+          animation: aLetter 2s 1 ease-in;
 }
-.animate .dotI {
+
+.animate #dot {
   stroke-dasharray: 50;
-  -webkit-animation: dotI 2s 1 ease-in;
-          animation: dotI 2s 1 ease-in;
+  -webkit-animation: dot 2s 1 ease-in;
+          animation: dot 2s 1 ease-in;
 }
+
+/* animation */
+
 @-webkit-keyframes tBottom {
   0% {
     stroke-dashoffset: 130;
@@ -56,6 +71,7 @@ path {
     stroke-dashoffset: 0;
   }
 }
+
 @keyframes tBottom {
   0% {
     stroke-dashoffset: 130;
@@ -64,80 +80,120 @@ path {
     stroke-dashoffset: 0;
   }
 }
+
 @-webkit-keyframes tLoop {
-  0%, 25% {
+  0%,
+ 25% {
     stroke-dashoffset: 130;
   }
   45% {
     stroke-dashoffset: 0;
   }
 }
+
 @keyframes tLoop {
-  0%, 25% {
+  0%,
+ 25% {
     stroke-dashoffset: 130;
   }
   45% {
     stroke-dashoffset: 0;
   }
 }
-@-webkit-keyframes letterI {
-  0%, 50% {
+
+@-webkit-keyframes iLetter {
+  0%,
+ 40% {
+    stroke-dashoffset: 90;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes iLetter {
+  0%,
+ 40% {
+    stroke-dashoffset: 90;
+  }
+  50% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes nLine {
+  0%,
+ 50% {
     stroke-dashoffset: 90;
   }
   60% {
     stroke-dashoffset: 0;
   }
 }
-@keyframes letterI {
-  0%, 50% {
+
+@keyframes nLine {
+  0%,
+ 50% {
     stroke-dashoffset: 90;
   }
   60% {
     stroke-dashoffset: 0;
   }
 }
-@-webkit-keyframes letterN {
-  0%, 60% {
+
+@-webkit-keyframes nLetter {
+  0%,
+ 60% {
     stroke-dashoffset: 150;
   }
   70% {
     stroke-dashoffset: 0;
   }
 }
-@keyframes letterN {
-  0%, 60% {
+
+@keyframes nLetter {
+  0%,
+ 60% {
     stroke-dashoffset: 150;
   }
   70% {
     stroke-dashoffset: 0;
   }
 }
-@-webkit-keyframes letterA {
-  0%, 70% {
+
+@-webkit-keyframes aLetter {
+  0%,
+ 70% {
     stroke-dashoffset: 170;
   }
   80% {
     stroke-dashoffset: 0;
   }
 }
-@keyframes letterA {
-  0%, 70% {
+
+@keyframes aLetter {
+  0%,
+ 70% {
     stroke-dashoffset: 170;
   }
   80% {
     stroke-dashoffset: 0;
   }
 }
-@-webkit-keyframes dotI {
-  0%, 99% {
+
+@-webkit-keyframes dot {
+  0%,
+ 99% {
     stroke-dashoffset: 50;
   }
   100% {
     stroke-dashoffset: 0;
   }
 }
-@keyframes dotI {
-  0%, 99% {
+
+@keyframes dot {
+  0%,
+ 99% {
     stroke-dashoffset: 50;
   }
   100% {
