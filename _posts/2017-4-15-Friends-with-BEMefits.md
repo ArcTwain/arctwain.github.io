@@ -1,8 +1,10 @@
 ---
 layout: post
 comments: true
-title: Friends With BEMefits
+title: Friends with BEMefits
 ---
+
+In one online development course I took not too long ago, the instructor made BEM one of the focal points of the example project. I kept saying, "OMG, BRAD! ANOTHER CLASS?!" way too loudly a few times when he introduced it.  Thankfully, an online student is like the proverbial tree that falls in the forest: Silent and dignified because there's no one there to hear her.  After a few sections, BEM grew on me. Thanks, Brad. 
 
 ## What is BEM?
 BEM (which stands for Block-Element-Modifier) is a CSS methodology that aims to make the relationship between HTML and CSS clearer. With BEM, CSS selectors target elements directly with classes instead of relying on type selectors, descendant selectors, and the cascade. Since the cascade becomes limited, there is more free freedom to move blocks around and reuse them throughout the page.
@@ -18,15 +20,15 @@ Finally, modifier classes indicate alternate versions of either blocks or elemen
 In summary, official BEM naming follows these rules: 
 
 {% highlight css %}
-    .block {}
-		.block__element {}
-    .block--modifier {}
-    .block__element--modifier {}
+  .block {}
+  .block__element {}
+  .block--modifier {}
+  .block__element--modifier {}
 {% endhighlight %}
 
-## How can BEM make things easier with Sass and other preprocessors?
+## How can BEM make things easier with Sass?
 
-Because of BEM's naming rules, nesting becomes easier.  An element is always part of a block, and modifiers can be part of either a block or element.
+Because of BEM's naming rules, nesting with Sass and other preprocessors becomes much easier.  An element is always part of a block, and modifiers can be part of either a block or element.
 
 Here's an example of nesting in a preprocessor:
 
@@ -46,4 +48,4 @@ Here's an example of nesting in a preprocessor:
 
 BEM makes it easier to revisit a project months or even a year later and be able to recognize, identify, and modify styles; it helps eliminate confusion, spaghetti code, and unnecessary !important declarations.  However, despite its selling points not everyone is on board with BEM. Some developers don't like the use of multiple classes, double underscores, and double dashes, but no one can argue that having a naming system helps cuts down on disorganization.  
 
-For more information on BEM, refer to its [documentation page](http://getbem.com) and this comprehensive article entitled [BEM 101](https://css-tricks.com/bem-101/) on CSS-tricks.
+For more information on BEM, refer to its [documentation page](http://getbem.com) and this comprehensive article entitled [BEM 101](https://css-tricks.com/bem-101/) on CSS-tricks.  
